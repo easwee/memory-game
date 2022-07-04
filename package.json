@@ -1,15 +1,14 @@
 {
-  "name": "soniox-web-voice",
+  "name": "memory-game",
   "version": "1.0.0",
-  "description": "Soniox Web Voice",
+  "description": "Memory game done with Soniox Web Voice",
   "private": true,
   "scripts": {
     "start": "node node_modules/.bin/webpack-dev-server",
     "build": "NODE_ENV=production node node_modules/.bin/webpack && cp src/index.html dist/index.html"
   },
   "keywords": [],
-  "author": "Soniox",
-  "license": "MIT",
+  "author": "easwee",
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
     "html-webpack-plugin": "^5.5.0",
