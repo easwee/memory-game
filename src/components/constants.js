@@ -1,7 +1,13 @@
+// could be as config
+export const DIFFICULTY_SELECTOR_COUNTDOWN_SECONDS = 5;
+export const GAME_COUNTDOWN_SECONDS = 30;
+export const RELOAD_INTERVAL_MILLISECONDS = 10000;
 export const MAX_DIFFICULTY = 3;
-export const CLAP_LOUDNESS_THRESHOLD = 92;
+export const CLAP_LOUDNESS_THRESHOLD = 92; // catches any noise above 92dB
 export const FLIP_KEYWORD = "flip";
 
+// need a dictionary since soniox sometimes returns number as word
+// and sometimes returns number as number string
 export const DICTIONARY = {
   one: 1,
   two: 2,

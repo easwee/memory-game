@@ -34,10 +34,6 @@ body {
   font-size: 54px;
 }
 
-#boardGameTimer.hidden {
-  opacity: 0;
-}
-
 .card {
   position: fixed;
   perspective: 1000px;

@@ -1,9 +1,7 @@
-import { CARD_SET, DIFFICULTY_MAP } from "./constants";
+import { CARD_SET, DIFFICULTY_MAP, GAME_COUNTDOWN_SECONDS } from "./constants";
 import { Card } from "./card";
-import { shuffle, uniqNumberSet } from "./util";
 import { Timer } from "./timer";
-
-const GAME_COUNTDOWN_SECONDS = 30;
+import { shuffle, uniqNumberSet } from "./util";
 
 export class Game {
   constructor() {

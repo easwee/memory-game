@@ -22,13 +22,3 @@ export function shuffle(array) {
 
   return array;
 }
-
-export function isCommandsSequenceEqual(a, b) {
-  for (let i = 0; i < a.length; i++) {
-    if (!b[i] || a[i].text !== b[i].text) {
-      return false;
-    }
-  }
-
-  return true;
-}

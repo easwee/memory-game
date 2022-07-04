@@ -19,6 +19,9 @@ export class MemoryGame {
     this._matched = [];
   }
 
+  /**
+   * Initialize all callbacks
+   */
   init() {
     this._game.setOnGameStarted(() => {
       this._voiceManager.clapHandler.stop();

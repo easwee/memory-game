@@ -15,10 +15,6 @@ export class Card {
     this._render();
   }
 
-  remove() {
-    this._element.remove();
-  }
-
   getIndex() {
     return this._index;
   }
@@ -33,6 +29,10 @@ export class Card {
 
   matched() {
     this._element.classList.add("matched");
+  }
+
+  remove() {
+    this._element.remove();
   }
 
   _render() {

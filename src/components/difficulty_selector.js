@@ -1,7 +1,5 @@
 import { Timer } from "./timer";
-
-const DIFFICULTY_SELECTOR_COUNTDOWN_SECONDS = 5;
-
+import { DIFFICULTY_SELECTOR_COUNTDOWN_SECONDS } from "./constants";
 export class DifficultySelector {
   constructor() {
     this._difficulty = 0;

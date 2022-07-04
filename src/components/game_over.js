@@ -1,4 +1,4 @@
-const RELOAD_INTERVAL = 10000;
+import { RELOAD_INTERVAL_MILLISECONDS } from "./constants";
 
 export class GameOver {
   constructor(hasWon) {
@@ -26,6 +26,6 @@ export class GameOver {
 
     setTimeout(() => {
       window.location.reload();
-    }, RELOAD_INTERVAL);
+    }, RELOAD_INTERVAL_MILLISECONDS);
   }
 }
