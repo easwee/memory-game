@@ -52,7 +52,7 @@ body {
 }
 
 .card.matched .back {
-  background-color: green;
+  background-color: #50c878;
 }
 
 .card .front,
@@ -78,7 +78,7 @@ body {
 
 .card .back {
   padding: 10px;
-  background-color: dodgerblue;
+  background-color: #40e0d0;
   color: white;
   transform: rotateY(180deg);
 }
